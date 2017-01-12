@@ -136,6 +136,7 @@ input, textarea {
   padding: 10px;
   margin: 10px;
   width: 70%;
+  color: black;
 }
 
 /*Submit button for contact form*/
@@ -154,6 +155,20 @@ input, textarea {
   background-color: #E33152;
 }
 
+/*View Source Code buttons*/
+.source {
+  background-color: #12B492;
+  color: white;
+  padding: 1% 5%;
+  border: 1px solid #12B492;
+  border-bottom: 4px solid #0C846B;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
 /*Vist my Github and Visit my LinkedIn buttons*/
 .visit-button {
   background-color: #b41234;
@@ -169,11 +184,26 @@ input, textarea {
   width: 250px;
 }
 
+.visit-button a {
+  text-decoration: none;
+  color: white;
+}
+
 .visit-button:hover {
+  background-color: #E33152;
+}
+
+/*.visit-button:hover {
+  background-color: white;
+  color:  #b41234;
+  font-weight: bold;
+}
+
+.visit-button a:hover {
   background-color: white;
   color: 	#b41234;
   font-weight: bold;
-}
+}*/
 
 
 /*Visit me footer*/
