@@ -397,6 +397,7 @@ body {
   
   #header {
     padding-top: 300px;
+    margin-bottom: 200px;
   }
   
   h2 {
@@ -438,6 +439,13 @@ body {
   .descrip-pad {
     margin: -15px;
   }
+
+  #copyright {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    font-size: 14px;
+  }
   
 }
   
@@ -460,7 +468,7 @@ body {
   }
   
   .li-align {
-    margin-left: -255px;
+    margin-left: 25px;
     float: left;
     display: block;
     margin-bottom: 20px;
@@ -493,7 +501,8 @@ body {
   }
   
   #header {
-    padding-top: 300px;
+    padding-top: 200px;
+    margin-bottom: 200px;
   }
   
   h2 {
@@ -514,7 +523,7 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-  
+
 }
   
 /*Sizing on screens no larger than 480px. For responsive web design.*/
@@ -539,11 +548,6 @@ body {
     min-height: 200px;
     margin-right: auto;
     margin-left: auto;
-  }
-  
-  figcaption {
-    max-width: 220px;
-    font-size: 20px;
   }
   
   figure {
@@ -593,9 +597,12 @@ body {
   }
   
   figcaption {
-    margin-left: 13px;
-    margin-right: 13px;
+    max-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
   }
+
 
 }
 
@@ -663,7 +670,7 @@ body {
   }
   
   figcaption {
-    font-size: 10px;
+    font-size: 12px;
   }
   
   figure > img {
